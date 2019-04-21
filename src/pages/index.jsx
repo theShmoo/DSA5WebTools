@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
 // material-ui
 import { withStyles } from '@material-ui/core/styles';
 
 // own classes
 import DSAAppBar from './DSAAppBar';
 import SuccessesAndFailuresMain from './successes/SuccessesAndFailuresMain';
+import CraftingMain from './crafting/CraftingMain';
 import { DSAGrid, DSAGridRow} from './controls/DSAGrid';
 import DSADescription from './controls/DSADescription';
 import DSAInfoBox from './controls/DSAInfoBox';
@@ -20,11 +20,11 @@ const styles = {
 
 const PAGES = [
   {
-    title: "Successes And Failures",
-    page: <SuccessesAndFailuresMain />
+    title: "Crafting",
+    page: <CraftingMain />
   },
   {
-    title: "test2",
+    title: "Successes And Failures",
     page: <SuccessesAndFailuresMain />
   },
 ];

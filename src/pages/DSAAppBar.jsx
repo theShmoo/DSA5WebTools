@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Helmet} from "react-helmet";
+
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -48,6 +50,10 @@ class DSAAppBar extends React.Component {
     const { anchorEl } = this.state;
     return (
       <div className={classes.root}>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{title} - DSA 5 Web App</title>
+        </Helmet>
         <AppBar position="static">
           <Toolbar>
             <IconButton
@@ -67,7 +73,7 @@ class DSAAppBar extends React.Component {
             >
               {menuitems}
             </Menu>
-            <Typography variant="title" color="inherit" className={classes.flex}>
+            <Typography variant="h6" color="inherit" className={classes.flex}>
               {title}
             </Typography>
           </Toolbar>

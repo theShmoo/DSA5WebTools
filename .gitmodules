@@ -10,3 +10,6 @@
 [submodule "src/pages/data"]
 	path = src/pages/data
 	url = https://www.github.com/theShmoo/DSA5Data.git
+[submodule "src/pages/crafting"]
+	path = src/pages/crafting
+	url = https://www.github.com/theShmoo/DSA5Crafting.git

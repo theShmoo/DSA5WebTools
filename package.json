@@ -11,6 +11,7 @@
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-helmet": "^5.2.0",
     "react-scripts": "latest",
     "react-select": "latest"
   },
