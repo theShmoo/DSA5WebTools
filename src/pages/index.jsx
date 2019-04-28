@@ -5,8 +5,11 @@ import { withStyles } from '@material-ui/core/styles';
 
 // own classes
 import DSAAppBar from './DSAAppBar';
+
 import SuccessesAndFailuresMain from './successes/SuccessesAndFailuresMain';
 import CraftingMain from './crafting/CraftingMain';
+import TreasuresMain from './treasures/TreasuresMain';
+
 import { DSAGrid, DSAGridRow} from './controls/DSAGrid';
 import DSADescription from './controls/DSADescription';
 import DSAInfoBox from './controls/DSAInfoBox';
@@ -27,12 +30,16 @@ const PAGES = [
     title: "Successes And Failures",
     page: <SuccessesAndFailuresMain />
   },
+  {
+    title: "Treasures",
+    page: <TreasuresMain />
+  },
 ];
 
 class Index extends Component {
 
   state = {
-    currentpage: PAGES[0]
+    currentpage: PAGES[2]
   }
 
   handlePageChange = page => {
