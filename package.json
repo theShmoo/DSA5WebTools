@@ -8,6 +8,7 @@
   "dependencies": {
     "@material-ui/core": "latest",
     "@material-ui/icons": "latest",
+    "material-ui-image": "^3.2.0",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",

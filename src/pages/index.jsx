@@ -9,6 +9,7 @@ import DSAAppBar from './DSAAppBar';
 import SuccessesAndFailuresMain from './successes/SuccessesAndFailuresMain';
 import CraftingMain from './crafting/CraftingMain';
 import TreasuresMain from './treasures/TreasuresMain';
+import TavernMain from './tavern/TavernMain';
 
 import { DSAGrid, DSAGridRow} from './controls/DSAGrid';
 import DSADescription from './controls/DSADescription';
@@ -34,12 +35,16 @@ const PAGES = [
     title: "Treasures",
     page: <TreasuresMain />
   },
+  {
+    title: "Tavern",
+    page: <TavernMain />
+  },
 ];
 
 class Index extends Component {
 
   state = {
-    currentpage: PAGES[2]
+    currentpage: PAGES[3]
   }
 
   handlePageChange = page => {
@@ -52,7 +57,7 @@ class Index extends Component {
     return (
       <div className={classes.root}>
         <DSAAppBar title={currentpage.title} pages={PAGES} onPageChange={this.handlePageChange}/>
-          {currentpage.page}
+        {currentpage.page}
         <footer>
           <DSAGrid>
             <DSAGridRow>

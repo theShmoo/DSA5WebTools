@@ -16,3 +16,9 @@
 [submodule "src/pages/treasures"]
 	path = src/pages/treasures
 	url = https://github.com/theShmoo/DSA5Treasures.git
+[submodule "src/pages/tavern"]
+	path = src/pages/tavern
+	url = https://github.com/theShmoo/DSA5Tavern.git
+[submodule "src/pages/utils"]
+	path = src/pages/utils
+	url = https://github.com/theShmoo/DSA5Utils.git

@@ -49,12 +49,11 @@ class DSAAppBar extends React.Component {
 
     const { anchorEl } = this.state;
     return (
-      <div className={classes.root}>
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>{title} - DSA 5 Web App</title>
-        </Helmet>
-        <AppBar position="static">
+        <AppBar position="static" className={classes.root}>
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>{title} - DSA 5 Web App</title>
+          </Helmet>
           <Toolbar>
             <IconButton
               className={classes.menuButton}
@@ -78,7 +77,6 @@ class DSAAppBar extends React.Component {
             </Typography>
           </Toolbar>
         </AppBar>
-      </div>
     );
   }
 }
