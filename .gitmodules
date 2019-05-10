@@ -22,3 +22,6 @@
 [submodule "src/pages/utils"]
 	path = src/pages/utils
 	url = https://github.com/theShmoo/DSA5Utils.git
+[submodule "src/pages/fauna"]
+	path = src/pages/fauna
+	url = https://github.com/theShmoo/DSA5Hunting

@@ -10,6 +10,7 @@ import SuccessesAndFailuresMain from './successes/SuccessesAndFailuresMain';
 import CraftingMain from './crafting/CraftingMain';
 import TreasuresMain from './treasures/TreasuresMain';
 import TavernMain from './tavern/TavernMain';
+import FaunaMain from './fauna/FaunaMain';
 
 import { DSAGrid, DSAGridRow} from './controls/DSAGrid';
 import DSADescription from './controls/DSADescription';
@@ -39,12 +40,16 @@ const PAGES = [
     title: "Tavern",
     page: <TavernMain />
   },
+  {
+    title: "Fauna",
+    page: <FaunaMain />
+  },
 ];
 
 class Index extends Component {
 
   state = {
-    currentpage: PAGES[3]
+    currentpage: PAGES[4]
   }
 
   handlePageChange = page => {
