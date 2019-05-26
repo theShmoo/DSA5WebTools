@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Helmet} from "react-helmet";
+import { Link } from "react-router-dom";
 
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -37,14 +38,13 @@ class DSAAppBar extends React.Component {
 
   handleClose = (page) => (event) => {
     this.setState({ anchorEl: null });
-    this.props.onPageChange(page);
   };
 
   render() {
     const { classes, title, pages } = this.props;
 
     const menuitems = pages.map((p, i) => {
-      return <MenuItem key={i} onClick={this.handleClose(p)}>{p.title}</MenuItem>
+      return <MenuItem key={i} component={Link} to={p.path} onClick={this.handleClose(p)}>{p.title}</MenuItem>
     })
 
     const { anchorEl } = this.state;

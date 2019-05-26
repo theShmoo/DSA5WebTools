@@ -13,7 +13,8 @@
     "react": "latest",
     "react-dom": "latest",
     "react-helmet": "latest",
-    "react-lazyload": "^2.5.0",
+    "react-lazyload": "latest",
+    "react-router-dom": "latest",
     "react-scripts": "latest",
     "react-select": "latest"
   },
