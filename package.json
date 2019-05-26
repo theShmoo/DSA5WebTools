@@ -8,11 +8,12 @@
   "dependencies": {
     "@material-ui/core": "latest",
     "@material-ui/icons": "latest",
-    "material-ui-image": "^3.2.0",
+    "material-ui-image": "latest",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-helmet": "^5.2.0",
+    "react-helmet": "latest",
+    "react-lazyload": "^2.5.0",
     "react-scripts": "latest",
     "react-select": "latest"
   },

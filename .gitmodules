@@ -25,3 +25,6 @@
 [submodule "src/pages/fauna"]
 	path = src/pages/fauna
 	url = https://github.com/theShmoo/DSA5Hunting
+[submodule "src/pages/spellbook"]
+	path = src/pages/spellbook
+	url = https://github.com/theShmoo/DSA5SpellBook
