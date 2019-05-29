@@ -1,11 +1,13 @@
 {
-  "main.js": "/DSA5WebTools/static/js/main.f1f43d53.chunk.js",
-  "main.js.map": "/DSA5WebTools/static/js/main.f1f43d53.chunk.js.map",
-  "runtime~main.js": "/DSA5WebTools/static/js/runtime~main.b94b4814.js",
-  "runtime~main.js.map": "/DSA5WebTools/static/js/runtime~main.b94b4814.js.map",
-  "static/js/2.6ab26c05.chunk.js": "/DSA5WebTools/static/js/2.6ab26c05.chunk.js",
-  "static/js/2.6ab26c05.chunk.js.map": "/DSA5WebTools/static/js/2.6ab26c05.chunk.js.map",
-  "index.html": "/DSA5WebTools/index.html",
-  "precache-manifest.943c15512ca6c047911f8d5e30ba234d.js": "/DSA5WebTools/precache-manifest.943c15512ca6c047911f8d5e30ba234d.js",
-  "service-worker.js": "/DSA5WebTools/service-worker.js"
+  "files": {
+    "main.js": "/DSA5WebTools/static/js/main.9513ef13.chunk.js",
+    "main.js.map": "/DSA5WebTools/static/js/main.9513ef13.chunk.js.map",
+    "runtime~main.js": "/DSA5WebTools/static/js/runtime~main.b94b4814.js",
+    "runtime~main.js.map": "/DSA5WebTools/static/js/runtime~main.b94b4814.js.map",
+    "static/js/2.2d3b4946.chunk.js": "/DSA5WebTools/static/js/2.2d3b4946.chunk.js",
+    "static/js/2.2d3b4946.chunk.js.map": "/DSA5WebTools/static/js/2.2d3b4946.chunk.js.map",
+    "index.html": "/DSA5WebTools/index.html",
+    "precache-manifest.80c94e740939f1404adec91ac8e91224.js": "/DSA5WebTools/precache-manifest.80c94e740939f1404adec91ac8e91224.js",
+    "service-worker.js": "/DSA5WebTools/service-worker.js"
+  }
 }
