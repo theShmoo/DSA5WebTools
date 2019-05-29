@@ -36,42 +36,42 @@ class Index extends Component {
     {
       title: "Crafting",
       page: <CraftingMain />,
-      path: "/craftig",
+      path: "/DSA5WebTools/craftig",
       image: "img/crafting.jpg",
       description: "",
     },
     {
       title: "Successes And Failures",
       page: <SuccessesAndFailuresMain />,
-      path: "/successes",
+      path: "/DSA5WebTools/successes",
       image: "img/nahkampf-angriff-erfolg.jpg",
       description: "",
     },
     {
       title: "Treasures",
       page: <TreasuresMain />,
-      path: "/treasures",
+      path: "/DSA5WebTools/treasures",
       image: "img/mondamulet.jpg",
       description: "",
     },
     {
       title: "Tavern",
       page: <TavernMain />,
-      path: "/tavern",
+      path: "/DSA5WebTools/tavern",
       image: "img/Zwergenfest.jpg",
       description: "",
     },
     {
       title: "Fauna",
       page: <FaunaMain />,
-      path: "/fauna",
+      path: "/DSA5WebTools/fauna",
       image: "img/tierkunde.jpg",
       description: "",
     },
     {
       title: "Spellbook",
       page: <SpellbookMain />,
-      path: "/spellbook",
+      path: "/DSA5WebTools/spellbook",
       image: "img/zauber.jpg",
       description: "",
     }
@@ -80,7 +80,7 @@ class Index extends Component {
   PAGES.push({
     title: "Übersicht",
     page: <OverviewMain pages={PAGES}/>,
-    path: "/",
+    path: "/DSA5WebTools/",
     image: "img/buch.jpg",
     description: "",
   });

@@ -7,8 +7,7 @@
   "dependencies": {
     "@material-ui/core": "latest",
     "@material-ui/icons": "latest",
-    "gh-pages": "^2.0.1",
-    "material-ui-image": "latest",
+    "gh-pages": "latest",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
@@ -31,5 +30,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": "github:theShmoo/DSA5WebTools",
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "license": "MIT"
 }
