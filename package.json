@@ -3,11 +3,11 @@
   "description": "A web app for DSA5.",
   "author": "David Pfahler",
   "version": "0.0.1",
-  "private": true,
-  "homepage": ".",
+  "homepage": "https://theshmoo.github.io/DSA5WebTools",
   "dependencies": {
     "@material-ui/core": "latest",
     "@material-ui/icons": "latest",
+    "gh-pages": "^2.0.1",
     "material-ui-image": "latest",
     "prop-types": "latest",
     "react": "latest",
@@ -19,6 +19,8 @@
     "react-select": "latest"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

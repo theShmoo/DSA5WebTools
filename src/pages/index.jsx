@@ -88,7 +88,7 @@ class Index extends Component {
     return (
       <BrowserRouter>
         <div className={classes.root}>
-          <Route path="/"
+          <Route path="/DSA5WebTools/"
             render={({ location }) => (<>
               <DSAAppBar
                 title={PAGES.find(p => p.path === location.pathname).title}
