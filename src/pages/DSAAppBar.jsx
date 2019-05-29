@@ -15,7 +15,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    marginBottom: theme.spacing.unit * 2
+    marginBottom: theme.spacing(2)
   },
   flex: {
     flex: 1,
