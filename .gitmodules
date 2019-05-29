@@ -1,0 +1,30 @@
+[submodule "src/controls"]
+	path = src/pages/controls
+	url = https://www.github.com/theShmoo/DSA5Controls.git
+[submodule "public/img"]
+	path = public/img
+	url = https://www.github.com/theShmoo/DSA5ImageResources.git
+[submodule "src/pages/successes"]
+	path = src/pages/successes
+	url = https://www.github.com/theShmoo/DSA5SuccessesAndFailures.git
+[submodule "src/pages/data"]
+	path = src/pages/data
+	url = https://www.github.com/theShmoo/DSA5Data.git
+[submodule "src/pages/crafting"]
+	path = src/pages/crafting
+	url = https://www.github.com/theShmoo/DSA5Crafting.git
+[submodule "src/pages/treasures"]
+	path = src/pages/treasures
+	url = https://github.com/theShmoo/DSA5Treasures.git
+[submodule "src/pages/tavern"]
+	path = src/pages/tavern
+	url = https://github.com/theShmoo/DSA5Tavern.git
+[submodule "src/pages/utils"]
+	path = src/pages/utils
+	url = https://github.com/theShmoo/DSA5Utils.git
+[submodule "src/pages/fauna"]
+	path = src/pages/fauna
+	url = https://github.com/theShmoo/DSA5Hunting
+[submodule "src/pages/spellbook"]
+	path = src/pages/spellbook
+	url = https://github.com/theShmoo/DSA5SpellBook
