@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dsa5webtools/precache-manifest.edd2002f3ce67701a92a505ffcfb8dc4.js"
+  "/DSA5WebTools/precache-manifest.b65011139554dc23e1fc3b22f2a8375a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/dsa5webtools/index.html", {
+workbox.routing.registerNavigationRoute("/DSA5WebTools/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
