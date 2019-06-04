@@ -27,7 +27,7 @@ const styles = {
   }
 };
 
-const ROOT_PATH = "/DSA5WebTools/";
+const ROOT_PATH = '/';
 
 class Index extends Component {
 
@@ -88,18 +88,20 @@ class Index extends Component {
   });
 
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL + "/#"}>
         <div className={classes.root}>
           <Route path={ROOT_PATH}
-            render={({ location }) => (<>
+            render={({ location }) => {
+              const current = PAGES.find(p => p.path === location.pathname);
+              return(<>
               <DSAAppBar
-                title={PAGES.find(p => p.path === location.pathname).title}
+                title={current ? current.title : PAGES[PAGES.length - 1].title}
                 pages={PAGES} />
               <Switch>
                 {PAGES.map((p, i) => <Route key={i} path={p.path} render={() => p.page} />)}
               </Switch>
-            </>
-          )}/>
+            </>);
+            }}/>
           <footer>
             <DSAGrid>
               <DSAGridRow>
