@@ -27,6 +27,8 @@ const styles = {
   }
 };
 
+const ROOT_PATH = "/DSA5WebTools/";
+
 class Index extends Component {
 
   render() {
@@ -36,42 +38,42 @@ class Index extends Component {
     {
       title: "Herstellung",
       page: <CraftingMain />,
-      path: "/DSA5WebTools/craftig",
+      path: ROOT_PATH + "craftig",
       image: "img/crafting.jpg",
       description: "",
     },
     {
       title: "Erfolge und Fehlschläge",
       page: <SuccessesAndFailuresMain />,
-      path: "/DSA5WebTools/successes",
+      path: ROOT_PATH + "successes",
       image: "img/nahkampf-angriff-erfolg.jpg",
       description: "",
     },
     {
       title: "Schätze",
       page: <TreasuresMain />,
-      path: "/DSA5WebTools/treasures",
+      path: ROOT_PATH + "treasures",
       image: "img/mondamulet.jpg",
       description: "",
     },
     {
       title: "Tavernen",
       page: <TavernMain />,
-      path: "/DSA5WebTools/tavern",
+      path: ROOT_PATH + "tavern",
       image: "img/Zwergenfest.jpg",
       description: "",
     },
     {
       title: "Jagd",
       page: <FaunaMain />,
-      path: "/DSA5WebTools/fauna",
+      path: ROOT_PATH + "fauna",
       image: "img/tierkunde.jpg",
       description: "",
     },
     {
       title: "Zauberbuch",
       page: <SpellbookMain />,
-      path: "/DSA5WebTools/spellbook",
+      path: ROOT_PATH + "spellbook",
       image: "img/zauber.jpg",
       description: "",
     }
@@ -80,7 +82,7 @@ class Index extends Component {
   PAGES.push({
     title: "Übersicht",
     page: <OverviewMain pages={PAGES}/>,
-    path: "/DSA5WebTools/",
+    path: ROOT_PATH,
     image: "img/buch.jpg",
     description: "",
   });
@@ -88,7 +90,7 @@ class Index extends Component {
     return (
       <BrowserRouter>
         <div className={classes.root}>
-          <Route path="/DSA5WebTools/"
+          <Route path={ROOT_PATH}
             render={({ location }) => (<>
               <DSAAppBar
                 title={PAGES.find(p => p.path === location.pathname).title}
