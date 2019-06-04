@@ -28,6 +28,6 @@
 [submodule "src/pages/spellbook"]
 	path = src/pages/spellbook
 	url = https://github.com/theShmoo/DSA5SpellBook
-[submodule ".\\src\\pages\\flora"]
-	path = .\\src\\pages\\flora
+[submodule "src/pages/flora"]
+	path = src/pages/flora
 	url = https://github.com/theShmoo/DSA5WebFlora
