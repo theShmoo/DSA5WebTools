@@ -34,42 +34,42 @@ class Index extends Component {
 
   let PAGES = [
     {
-      title: "Crafting",
+      title: "Herstellung",
       page: <CraftingMain />,
       path: "/DSA5WebTools/craftig",
       image: "img/crafting.jpg",
       description: "",
     },
     {
-      title: "Successes And Failures",
+      title: "Erfolge und Fehlschläge",
       page: <SuccessesAndFailuresMain />,
       path: "/DSA5WebTools/successes",
       image: "img/nahkampf-angriff-erfolg.jpg",
       description: "",
     },
     {
-      title: "Treasures",
+      title: "Schätze",
       page: <TreasuresMain />,
       path: "/DSA5WebTools/treasures",
       image: "img/mondamulet.jpg",
       description: "",
     },
     {
-      title: "Tavern",
+      title: "Tavernen",
       page: <TavernMain />,
       path: "/DSA5WebTools/tavern",
       image: "img/Zwergenfest.jpg",
       description: "",
     },
     {
-      title: "Fauna",
+      title: "Jagd",
       page: <FaunaMain />,
       path: "/DSA5WebTools/fauna",
       image: "img/tierkunde.jpg",
       description: "",
     },
     {
-      title: "Spellbook",
+      title: "Zauberbuch",
       page: <SpellbookMain />,
       path: "/DSA5WebTools/spellbook",
       image: "img/zauber.jpg",
