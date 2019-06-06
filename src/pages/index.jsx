@@ -14,6 +14,7 @@ import TreasuresMain from './treasures/TreasuresMain';
 import TavernMain from './tavern/TavernMain';
 import FaunaMain from './fauna/FaunaMain';
 import SpellbookMain from './spellbook/SpellbookMain'
+import FloraMain from './flora/FloraMain';
 import OverviewMain from './OverviewMain';
 
 import { DSAGrid, DSAGridRow} from './controls/DSAGrid';
@@ -71,12 +72,19 @@ class Index extends Component {
       description: "",
     },
     {
+      title: "Pflanzen",
+      page: <FloraMain />,
+      path: ROOT_PATH + "flora",
+      image: "img/flora.jpg",
+      description: "",
+    },
+    {
       title: "Zauberbuch",
       page: <SpellbookMain />,
       path: ROOT_PATH + "spellbook",
       image: "img/zauber.jpg",
       description: "",
-    }
+    },
   ];
 
   PAGES.push({
