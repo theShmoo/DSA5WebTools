@@ -15,7 +15,8 @@
     "react-lazyload": "latest",
     "react-router-dom": "latest",
     "react-scripts": "latest",
-    "react-select": "latest"
+    "react-select": "latest",
+    "query-string": "latest"
   },
   "scripts": {
     "predeploy": "npm run build",
