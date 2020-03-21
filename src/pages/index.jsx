@@ -90,7 +90,7 @@ class Index extends Component {
       title: "Namen",
       page: <NamesMain />,
       path: ROOT_PATH + "names",
-      image: "img/zauber.jpg",
+      image: "img/names.jpg",
       description: "",
     },
   ];
