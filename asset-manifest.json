@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/DSA5WebTools/static/js/main.060fbe9b.chunk.js",
-    "main.js.map": "/DSA5WebTools/static/js/main.060fbe9b.chunk.js.map",
+    "main.js": "/DSA5WebTools/static/js/main.ae04a4de.chunk.js",
+    "main.js.map": "/DSA5WebTools/static/js/main.ae04a4de.chunk.js.map",
     "runtime-main.js": "/DSA5WebTools/static/js/runtime-main.58e813ed.js",
     "runtime-main.js.map": "/DSA5WebTools/static/js/runtime-main.58e813ed.js.map",
     "static/js/2.01dd9b97.chunk.js": "/DSA5WebTools/static/js/2.01dd9b97.chunk.js",
     "static/js/2.01dd9b97.chunk.js.map": "/DSA5WebTools/static/js/2.01dd9b97.chunk.js.map",
     "index.html": "/DSA5WebTools/index.html",
-    "precache-manifest.65a62cc93e3e9385bfd80cd528f323bf.js": "/DSA5WebTools/precache-manifest.65a62cc93e3e9385bfd80cd528f323bf.js",
+    "precache-manifest.f02a7fc44463d39a8af836a45ccca44c.js": "/DSA5WebTools/precache-manifest.f02a7fc44463d39a8af836a45ccca44c.js",
     "service-worker.js": "/DSA5WebTools/service-worker.js",
     "static/js/2.01dd9b97.chunk.js.LICENSE.txt": "/DSA5WebTools/static/js/2.01dd9b97.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.58e813ed.js",
     "static/js/2.01dd9b97.chunk.js",
-    "static/js/main.060fbe9b.chunk.js"
+    "static/js/main.ae04a4de.chunk.js"
   ]
 }
