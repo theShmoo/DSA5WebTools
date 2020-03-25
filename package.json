@@ -16,7 +16,8 @@
     "react-router-dom": "latest",
     "react-scripts": "latest",
     "react-select": "latest",
-    "query-string": "latest"
+    "query-string": "latest",
+    "seedrandom": "latest"
   },
   "scripts": {
     "predeploy": "npm run build",
