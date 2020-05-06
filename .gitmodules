@@ -34,3 +34,6 @@
 [submodule "src/pages/chants"]
 	path = src/pages/chants
 	url = https://github.com/theShmoo/DSA5Chants
+[submodule "src/pages/controls"]
+	path = src/pages/controls
+	url = https://github.com/theShmoo/DSA5Controls
