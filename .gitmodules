@@ -31,6 +31,6 @@
 [submodule "src/pages/flora"]
 	path = src/pages/flora
 	url = https://github.com/theShmoo/DSA5WebFlora
-[submodule ".\\src\\pages\\names"]
-	path = .\\src\\pages\\names
+[submodule "src/pages/names"]
+	path = src/pages/names
 	url = https://github.com/theShmoo/DSA5Names
