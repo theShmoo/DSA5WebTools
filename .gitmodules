@@ -1,6 +1,3 @@
-[submodule "src/controls"]
-	path = src/pages/controls
-	url = https://www.github.com/theShmoo/DSA5Controls.git
 [submodule "public/img"]
 	path = public/img
 	url = https://www.github.com/theShmoo/DSA5ImageResources.git
@@ -34,3 +31,6 @@
 [submodule "src/pages/names"]
 	path = src/pages/names
 	url = https://github.com/theShmoo/DSA5Names
+[submodule "src/pages/chants"]
+	path = src/pages/chants
+	url = https://github.com/theShmoo/DSA5Chants
