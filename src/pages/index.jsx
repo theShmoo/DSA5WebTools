@@ -14,6 +14,7 @@ import TreasuresMain from './treasures/TreasuresMain';
 import TavernMain from './tavern/TavernMain';
 import FaunaMain from './fauna/FaunaMain';
 import SpellbookMain from './spellbook/SpellbookMain'
+import ChantsMain from './chants/ChantsMain'
 import FloraMain from './flora/FloraMain';
 import NamesMain from './names/NamesMain';
 import OverviewMain from './OverviewMain';
@@ -84,6 +85,13 @@ class Index extends Component {
       page: <SpellbookMain />,
       path: ROOT_PATH + "spellbook",
       image: "img/zauber.jpg",
+      description: "",
+    },
+    {
+      title: "Liturgium",
+      page: <ChantsMain />,
+      path: ROOT_PATH + "chants",
+      image: "img/chants.jpg",
       description: "",
     },
     {
