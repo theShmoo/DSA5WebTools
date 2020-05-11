@@ -4,9 +4,9 @@ https://theshmoo.github.io/DSA5WebTools/
 The source of the DSA Web Tools:
 https://github.com/theShmoo/DSA5WebTools
 
-Find DSA Names here:
-https://theshmoo.github.io/DSA5WebTools/#/names
+Find DSA Spell Book here:
+https://theshmoo.github.io/DSA5WebTools/#/spellbook
 
-Submodule for DSA Names:
-https://github.com/theShmoo/DSA5Names
+Submodule for Web Liturgium:
+https://github.com/theShmoo/DSA5SpellBook
 
