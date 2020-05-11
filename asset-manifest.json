@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/DSA5WebTools/static/js/main.968bb458.chunk.js",
-    "main.js.map": "/DSA5WebTools/static/js/main.968bb458.chunk.js.map",
+    "main.js": "/DSA5WebTools/static/js/main.3f05dcb9.chunk.js",
+    "main.js.map": "/DSA5WebTools/static/js/main.3f05dcb9.chunk.js.map",
     "runtime-main.js": "/DSA5WebTools/static/js/runtime-main.58e813ed.js",
     "runtime-main.js.map": "/DSA5WebTools/static/js/runtime-main.58e813ed.js.map",
-    "static/js/2.f068dcec.chunk.js": "/DSA5WebTools/static/js/2.f068dcec.chunk.js",
-    "static/js/2.f068dcec.chunk.js.map": "/DSA5WebTools/static/js/2.f068dcec.chunk.js.map",
+    "static/js/2.9798121b.chunk.js": "/DSA5WebTools/static/js/2.9798121b.chunk.js",
+    "static/js/2.9798121b.chunk.js.map": "/DSA5WebTools/static/js/2.9798121b.chunk.js.map",
     "index.html": "/DSA5WebTools/index.html",
-    "precache-manifest.0ee224194d26f6caa61dc0b57c3111a7.js": "/DSA5WebTools/precache-manifest.0ee224194d26f6caa61dc0b57c3111a7.js",
+    "precache-manifest.914108bfec7de0cdd98a42e295101423.js": "/DSA5WebTools/precache-manifest.914108bfec7de0cdd98a42e295101423.js",
     "service-worker.js": "/DSA5WebTools/service-worker.js",
-    "static/js/2.f068dcec.chunk.js.LICENSE.txt": "/DSA5WebTools/static/js/2.f068dcec.chunk.js.LICENSE.txt"
+    "static/js/2.9798121b.chunk.js.LICENSE.txt": "/DSA5WebTools/static/js/2.9798121b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.58e813ed.js",
-    "static/js/2.f068dcec.chunk.js",
-    "static/js/main.968bb458.chunk.js"
+    "static/js/2.9798121b.chunk.js",
+    "static/js/main.3f05dcb9.chunk.js"
   ]
 }
